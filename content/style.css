@@ -1,0 +1,100 @@
+body {
+  padding: 20px 150px;
+  font-family: "Nunito Sans";
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  background-color: #928d8e;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: #5618ff;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+table {
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  font-size: 20px;
+  position: relative;
+  width: 80%;
+  max-width: 100%;
+  overflow: auto;
+}
+
+th {
+  border-bottom: 2px solid #000029;
+  text-align: left;
+  font-size: 25px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #928d8e;
+}
+
+td {
+  border-bottom: 1px dashed rgb(2, 2, 2);
+  text-align: left;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+button {
+  margin: 5px 0;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  background-color: #d8ddd8;
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  color: #ffffff;
+  background-color: #928d8e;
+}
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  color: #020202;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
